@@ -1,7 +1,9 @@
-This folder contains the documentation files for Nial
+The following items provide a complete description of the Nial language and its builtin functions/operators
 
-- [Nial Introduction](NialIntroduction.md) provides a garduated introduction to Nial through a series of examples
-- [Nial Dictionary](V7 QNial Dictionary.html) lists the provided functions/operators together with essesntail concepts
+- [Nial Introduction](NialIntroduction.md) provides a graduated introduction to Nial through a series of examples
+- [Nial Dictionary](NialDictionary.html) lists the provided functions/operators together with essential concepts as a programmers reference
+- [Language Definition](LanguageDefinition.md) is the formal definition of Nial
+- 
 
 
 
