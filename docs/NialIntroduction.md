@@ -62,7 +62,7 @@ keyboard entry is completed by pressing *Enter*. To end the session,
 you type *Bye* or *Continue*.
 
 
-##A First Session
+## A First Session
 
 
 The following session uses the Linux Console Version of Q'Nial:
