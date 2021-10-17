@@ -1,5 +1,5 @@
 
-#Preface
+# Preface
 
 This Introduction to Q'Nial is a quick guide on how to use Nial. It is
 intended for people with some experience in programming languages such
@@ -38,7 +38,7 @@ the Introduction to Q'Nial.
 
 
 
-#Chapter 1 Getting Started
+# Chapter 1 Getting Started
 
 
 Conventional high level languages, such as Fortran, C or Pascal, are
@@ -150,7 +150,7 @@ instead of *Bye*, the workspace information would be saved as the file
 from within the same directory would restart the session with variables
 A and B defined.
 
-##Some Differences  with Other Languages
+## Some Differences  with Other Languages
 
 
 The above session illustrates some differences between Nial and
@@ -258,7 +258,7 @@ computation in terms of the elementary steps done by a conventional
 compiled language. This higher level view of data and operations on data
 gives Nial an expressive power that supports rapid problem solving.
 
-##Defining Operations
+## Defining Operations
 
 The actions presented in the two previous sessions use built-in
 capabilities of Nial. In order to program, new functional objects that
@@ -330,7 +330,7 @@ Definitions created as actions or by using an editor can be retained by
 using the operation save to store the workspace as a binary file. The
 workspace can be reactivated later using *load*.
 
-#Chapter 2 An Overview of Nial
+# Chapter 2 An Overview of Nial
 
 Nial is based on a mathematical treatment of array data structures,
 informally called array theory, and on standard features borrowed from
@@ -361,7 +361,7 @@ interaction. Loaddefs may be used to bring in a single definition or a
 set of definitions prepared using an editor and can call itself
 recursively.
 
-##The Data Objects
+## The Data Objects
 
 All data objects in Nial are considered to be array data structures. An
 array is a collection of data objects organized along axes. The most
@@ -746,7 +746,7 @@ and expressions in the sublanguage are combined using control mechanisms
 such as assignment, sequencing and function definition to provide a high
 level mechanism for rapid programming.
 
-#Chapter  3 Data Manipulation Language
+# Chapter  3 Data Manipulation Language
 
 All data objects in Nial are treated as rectangular nested arrays with
 dimen sionality, extent and depth. The array
@@ -806,7 +806,7 @@ evaluates to the list that has as its items the values of the
 expressions in the strand. An item of a strand can be an atomic array,
 string or an expression in parentheses.
 
-##Functional Objects
+## Functional Objects
 
 Nial has two classes of functional objects: operations and transformers.
 Operations are the functional objects that map arrays to arrays, such as
@@ -958,7 +958,7 @@ This example demonstrates that infix uses of operations are evaluated
 left to right without precedence. The same expression in Pascal or C
 would be evaluated by doing the multiplication first.
 
-##Bracket Notation
+## Bracket Notation
 
 Nial syntax has a second way to construct a list. It is called
 bracket-comma notation. The expression
@@ -1016,7 +1016,7 @@ operations without the need to explicitly name the argument. It is also
 used to form an operation argument for a transformer that uses two or
 more operations.
 
-##Addresses and Indexing
+## Addresses and Indexing
 
 In procedural programming languages, arrays are treated as subscripted
 variables. A name declared to be an array is said to denote a collection
@@ -1106,14 +1106,14 @@ construct and cannot be modified by a transformer. Also the at-notation
 can only be used with a variable, whereas pick can select from the
 result of any expression.
 
-#Chapter 4 Language Mechanisms
+# Chapter 4 Language Mechanisms
 
 Nial has many linguistic mechanisms that are similar to those used in
 other programming languages. These can be group ed under a small number
 of headings: assignments, selections, iterations and function
 construction.
 
-##Assignment Expressions
+## Assignment Expressions
 
 Assignment has been illustrated in many of the previous examples. An
 assign-expression associates a name or a list of names to a value. There
@@ -1138,7 +1138,7 @@ For the first two forms, the result value is the value on the right. For
 the third form, the value of the result of the assign-expression is the
 value of the updated variable.
 
-##Selector Expressions
+## Selector Expressions
 
 There are two selector mechanisms: if-expressions and case-expressions.
 The if-expression can have a single conditional expression or a sequence
@@ -1189,7 +1189,7 @@ of the clauses following the FROM. The values preceding the colons are
 unique constants that are compared with the selection value. Only one of
 the expressions is evaluated.
 
-##Iterations
+## Iterations
 
 There are three forms of iteration in Nial: while-expressions,
 repeat-until expressions and for-expressions. Each implements an
@@ -1241,7 +1241,7 @@ advantage of the first version using the while-expression is that it
 requires less internal storage since only one record of the file is in
 the workspace at a time.
 
-##Expression Sequences
+## Expression Sequences
 
 All the control constructs for iterations and selections have two kinds
 of expressions in them: expressions that are used for control and
@@ -1265,7 +1265,7 @@ Although the embedding of assignments is permitted in Nial, it is a
 practice that should be used with restraint. Its overuse can make
 programs difficult to read.
 
-##Blocks
+## Blocks
 
 The block concept in Nial is borrowed directly from Algol 60 and its
 descendants. It is essentially the same as that in Pascal except for the
@@ -1314,7 +1314,7 @@ definition.
     11. 12. 13. 14. 15.
     
 
-##Defining a Parameterized Operation
+## Defining a Parameterized Operation
 
 The operation *average* defined in the previous section illustrates the
 use of an operation-form in a definition. An operation-form begins with
@@ -1385,7 +1385,7 @@ without being given a name. For example:
 In such a use, the operation-form must be enclosed in parentheses.
 
 
-##Defining a Transformer
+## Defining a Transformer
 
 A transformer is used to modify an operation or an atlas of operations
 in a systematic way. Most of the general transformers needed for
@@ -1500,7 +1500,7 @@ as Tree with each label replace with the phrase LAB. This is achieved by
 using *pass* to process the leaves, using the curried operation *LAB*
 first on the labels and using hitch to rebuild the tree at each level.
 
-#Chapter 5 Problem Solving with Nial
+# Chapter 5 Problem Solving with Nial
 
 Q'Nial provides an interactive environment for experimenting while
 trying to solve a problem. The interactive approach allows thinking
@@ -1512,7 +1512,7 @@ a problem in graph theory. The recording of the log is started using
     set "log ;
 
 
-##The Problem
+## The Problem
 
 Consider a directed graph consisting of nodes a, b, ... and edges that
 indicate a directed link between some of the nodes. For example,
@@ -1551,7 +1551,7 @@ Visual inspection of the example graph reveals that there exists a path
 from a to k but not one from b to d. The task is to determine how to
 test this finding computationally.
 
-##Testing for a Path
+## Testing for a Path
 
 We begin experimenting by looking for the path from a to k. First, look
 for all the links that start at a.
@@ -1700,7 +1700,7 @@ number of links.
 The operation has succeeded.
 
 
-##Returning the Path Found
+## Returning the Path Found
 
 An alternative solution would be to return the path if one is found.
 This is only a minor change in the algorithm. Instead of returning a
@@ -1766,7 +1766,7 @@ rather than the linked node that is added to the path.
     
 
 
-##Finding Paths in a Cyclic Graph
+## Finding Paths in a Cyclic Graph
 
 Now consider the situation where a graph has more than one path between
 two nodes. It may be desirable to compute all the paths between nodes.
@@ -1867,7 +1867,7 @@ that there is a link between nodes i and j. With this representation, a
 correspondence between the node names and the indices is main tained.
 
 
-#Chapter 6 Host System interface
+# Chapter 6 Host System interface
 
 Q'Nial is designed as a portable language processor that runs in a very
 similar way on different operating systems. This design goal leads to an
@@ -1877,7 +1877,7 @@ accessible through operations which permit the user to exploit the
 underlying mechanisms. Some of the latter operations are dependent on
 the specific implementation details.
 
-##Use of Files
+## Use of Files
 
 In Q'Nial there are four ways that files can be used:
 
@@ -1913,7 +1913,7 @@ keyboard input, screen output so that programs that use simple input and
 output can work with or without windows. An extensive editor capability
 is provided with the windowing capability.
 
-##Interpreter Mechanisms
+## Interpreter Mechanisms
 
 The internal features of the Q'Nial interpreter made available to the
 user include:
