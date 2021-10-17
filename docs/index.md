@@ -1,3 +1,7 @@
 This folder contains the documentation files for Nial
 
-- [Nial Introduction](NialIntroduction.md) provides a brief introduction to Nial
+- [Nial Introduction](NialIntroduction.md) provides a garduated introduction to Nial through a series of examples
+- [Nial Dictionary] lists the provided functions/operators together with essesntail concepts
+
+
+
