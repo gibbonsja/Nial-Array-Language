@@ -1,3 +1,7 @@
+---
+title: Nial Documentation
+---
+
 The following items provide a complete description of the Nial language and its builtin functions/operators
 
 - [Nial Introduction](NialIntroduction.md) provides a graduated introduction to Nial through a series of examples
