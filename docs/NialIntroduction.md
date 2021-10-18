@@ -15,7 +15,7 @@ on how to use the features of Q'Nial effectively.
 The information is presented in six chapters.
 
 
-***Chapter*** 1 shows a first session, explains some differences with other
+***Chapter 1*** shows a first session, explains some differences with other
 languages and shows how to define an operation.
 
 ***Chapter 2*** provides an overview of Nial regarding data objects and
@@ -26,7 +26,7 @@ operations and transformers. It shows how various rules in Nial are used
 in the derivation of a result of an expression and explains brackets
 notation and indexing.
 
-***Chapter*** 4 describes several types of expressions and expression
+***Chapter 4*** describes several types of expressions and expression
 sequences and explains how to define a parameterized operation and a
 transformer.
 
@@ -750,7 +750,7 @@ and expressions in the sublanguage are combined using control mechanisms
 such as assignment, sequencing and function definition to provide a high
 level mechanism for rapid programming.
 
-# Chapter  3 Data Manipulation Language
+# Chapter 3 Data Manipulation Language
 
 All data objects in Nial are treated as rectangular nested arrays with
 dimen sionality, extent and depth. The array
