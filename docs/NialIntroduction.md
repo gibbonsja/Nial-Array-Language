@@ -1,3 +1,7 @@
+---
+title: An Introduction to Nial
+---
+
 
 # Preface
 
