@@ -6,6 +6,14 @@ title: Language Mechanisms - Nial Introduction, Chapter 4
 # Language Mechanisms
 ### Chapter 4
 
+- [Assignment Expressions](##assignment-expressions)
+- [Selector Expressions](##selector-expressions)
+- [Iterations](##iterations)
+- [Expression Sequences](##expression-sequences)
+- [Blocks](##blocks)
+- [Defining a Parameterized Operation](##defining-a-parameterized-operation)
+- [Defining a Transformer](##defining-a-transformer)
+
 Nial has many linguistic mechanisms that are similar to those used in
 other programming languages. These can be group ed under a small number
 of headings: assignments, selections, iterations and function
@@ -185,7 +193,7 @@ a local variable.
     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
     
  
-   Y
+    Y
     ?undefined identifier: Y <***>
     
 

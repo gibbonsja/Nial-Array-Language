@@ -6,6 +6,9 @@ title: Host System Interface - Nial Introduction, Chapter 6
 # Host System Interface
 ### Chapter 6
 
+- [Use of Files](##use-of-files)
+- [Interpreter Mechanisms](##interpreter-mechanisms)
+
 Q'Nial is designed as a portable language processor that runs in a very
 similar way on different operating systems. This design goal leads to an
 abstract ap proach to accessing system functions. A second design goal

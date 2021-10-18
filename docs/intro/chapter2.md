@@ -6,6 +6,8 @@ title: An Overview of Nial - Nial Introduction, Chapter 2
 # An Overview of Nial
 ### Chapter 2
 
+- [The Data Objects](##the-data-objects)
+
 Nial is based on a mathematical treatment of array data structures,
 informally called array theory, and on standard features borrowed from
 other programming languages. Thus, it combines a mathematical approach

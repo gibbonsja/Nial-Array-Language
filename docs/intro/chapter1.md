@@ -6,6 +6,10 @@ title: Getting Started - Nial Introduction, Chapter1
 # Getting Started
 ### Chapter 1
 
+- [A First Session](##a-first-session)
+- [Some Differences with Other Languages](##some-differences-with-other-languages)
+- [Defining Operations](##defining-operations)
+
 Conventional high level languages, such as Fortran, C or Pascal, are
 designed for the creation of complete programs using a text editor. The
 program is translated (compiled) to machine language and finally
@@ -115,7 +119,7 @@ instead of *Bye*, the workspace information would be saved as the file
 from within the same directory would restart the session with variables
 A and B defined.
 
-## Some Differences  with Other Languages
+## Some Differences with Other Languages
 
 
 The above session illustrates some differences between Nial and
