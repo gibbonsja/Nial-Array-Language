@@ -57,9 +57,10 @@ is provided with the windowing capability.
 The internal features of the Q'Nial interpreter made available to the
 user include:
 
+| Name        | Function                                               |
 | ----------- | ------------------------------------------------------ |
-| scan        |  scan a string of program text into a token stream |
-| parse       |  parse a token stream into a parse tree.                      |
+| scan        | scan a string of program text into a token stream |
+| parse       | parse a token stream into a parse tree. |
 | eval        | evaluate a parse tree |
 | execute     | evaluate a string of program text |
 | descan      | convert a token stream to a list of strings  |
