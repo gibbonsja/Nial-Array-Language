@@ -6,13 +6,13 @@ title: Language Mechanisms - Nial Introduction, Chapter 4
 # Language Mechanisms
 ### Chapter 4
 
-- [Assignment Expressions](##assignment-expressions)
-- [Selector Expressions](##selector-expressions)
-- [Iterations](##iterations)
-- [Expression Sequences](##expression-sequences)
-- [Blocks](##blocks)
-- [Defining a Parameterized Operation](##defining-a-parameterized-operation)
-- [Defining a Transformer](##defining-a-transformer)
+- [Assignment Expressions](#assignment-expressions)
+- [Selector Expressions](#selector-expressions)
+- [Iterations](#iterations)
+- [Expression Sequences](#expression-sequences)
+- [Blocks](#blocks)
+- [Defining a Parameterized Operation](#defining-a-parameterized-operation)
+- [Defining a Transformer](#defining-a-transformer)
 
 Nial has many linguistic mechanisms that are similar to those used in
 other programming languages. These can be group ed under a small number

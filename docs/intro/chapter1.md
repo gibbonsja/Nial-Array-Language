@@ -6,9 +6,9 @@ title: Getting Started - Nial Introduction, Chapter1
 # Getting Started
 ### Chapter 1
 
-- [A First Session](##a-first-session)
-- [Some Differences with Other Languages](##some-differences-with-other-languages)
-- [Defining Operations](##defining-operations)
+- [A First Session](#a-first-session)
+- [Some Differences with Other Languages](#some-differences-with-other-languages)
+- [Defining Operations](#defining-operations)
 
 Conventional high level languages, such as Fortran, C or Pascal, are
 designed for the creation of complete programs using a text editor. The

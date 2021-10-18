@@ -6,9 +6,9 @@ title: A Data Manipulation Language - Nial Introduction, Chapter 3
 # A Data Manipulation Language
 ### Chapter 3
 
-- [Functional Objects](##functional-objects)
-- [Bracket Notation](##bracket-notation)
-- [Addresses and Indexing](##addresses-and-indexing)
+- [Functional Objects](#functional-objects)
+- [Bracket Notation](#bracket-notation)
+- [Addresses and Indexing](#addresses-and-indexing)
 
 All data objects in Nial are treated as rectangular nested arrays with
 dimen sionality, extent and depth. The array

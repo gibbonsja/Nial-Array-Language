@@ -6,10 +6,10 @@ title: Problem Solving with Nial - Nial Introduction, Chapter 5
 # Problem Solving with Nial
 ### Chapter 5
 
-- [The Problem](##the-problem)
-- [Testing for a Path](##testing-for-a-path)
-- [Returning the Path Found](##returning-the-path-found)
-- [Finding Paths in a Cyclic Graph](##finding-paths-in-a-cyclic-graph)
+- [The Problem](#the-problem)
+- [Testing for a Path](#testing-for-a-path)
+- [Returning the Path Found](#returning-the-path-found)
+- [Finding Paths in a Cyclic Graph](#finding-paths-in-a-cyclic-graph)
 
 Q'Nial provides an interactive environment for experimenting while
 trying to solve a problem. The interactive approach allows thinking
