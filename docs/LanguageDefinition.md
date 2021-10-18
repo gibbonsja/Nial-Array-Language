@@ -1,3 +1,7 @@
+---
+title: The Nial Language Manual
+---
+
 # The Language Definition
 
 
