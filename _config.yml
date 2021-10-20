@@ -1,5 +1,4 @@
-theme: jekyll-theme-minimal
-minimal_mistakes_skin: "aqua"
+theme: jekyll-theme-cayman
 title: "Nial Array Language"
 github:
   is_project_page: false
