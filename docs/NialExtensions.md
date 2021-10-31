@@ -1,7 +1,5 @@
 ---
 title: Extensions
-layout: single
-toc: true
 ---
 
 
