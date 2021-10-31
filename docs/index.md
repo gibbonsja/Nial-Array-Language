@@ -8,6 +8,11 @@ The following items provide a complete description of the Nial language and its 
 - [Nial Dictionary](NialDictionary.html) lists the provided functions/operators together with essential concepts as a programmers reference
 - [Language Definition](LanguageDefinition.md) is the formal definition of Nial
 
+The basic functionality of Nial can be extended by writing C coded modules/features. The current collection is described in
+
+- [Nial Extensions](NialExtensions.md)
+
+
 
 
 
