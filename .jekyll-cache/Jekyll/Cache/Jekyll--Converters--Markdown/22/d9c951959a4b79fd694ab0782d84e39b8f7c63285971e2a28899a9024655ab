@@ -1,0 +1,25 @@
+I"¹<p>The following items provide a complete description of the Nial language and its builtin functions/operators</p>
+
+<h2 id="core-language-documents">Core Language Documents</h2>
+
+<ul>
+  <li><a href="intro/index.html">Nial Introduction</a> provides a graduated introduction to Nial through a series of examples</li>
+  <li><a href="LanguageDefinition.html">Language Definition</a> is the formal definition of Nial</li>
+</ul>
+
+<h2 id="reference-documentation">Reference Documentation</h2>
+
+<ul>
+  <li><a href="NialDict.html">Nial Dictionary</a> is an indexed collection of operations, transformers, concepts etc for Nial. This is also
+ available as a <a href="NialDictionary.html">Standalone Web Page</a></li>
+</ul>
+
+<h2 id="language-extensions">Language Extensions</h2>
+
+<ul>
+  <li><a href="NialExtensions.html">Language Extensions</a> a list of extension modules/feaures that can be added to Nial</li>
+</ul>
+
+<h2 id="nial-libraries">Nial Libraries</h2>
+
+:ET

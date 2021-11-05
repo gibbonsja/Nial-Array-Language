@@ -7,119 +7,9 @@ toc: true
 # Topics
 ## Concepts
 
-### address
-
-  - Class:  
-    [concept](#concept)
-  - See Also:  
-    [array](#array), [pick](#pick), [indexing](#indexing)
-
-An **address** is an integer or a list of integers describing the
-location of an item in an array. An address uses 0-origin counting, i.e.
-the first position in a list is at address 0. All the addresses of an
-array can be stored in an array of the same rectangular structure as the
-array itself. Such an array is called the **grid** of an array. Consider
-the following example:
-
-``` 
-             GRID OF THE ARRAY                 ARRAY
-+-----+-----+-----+-----+-----+-----+ +---+---+---+---+---+---+
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |499|434|122|770|733|890|
-||0|0|||0|1|||0|2|||0|3|||0|4|||0|5|| +---+---+---+---+---+---+
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |660|160| 32|808|240|584|
-+-----+-----+-----+-----+-----+-----+ +---+---+---+---+---+---+
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |473|235|164|496|808|966|
-||1|0|||1|1|||1|2|||1|3|||1|4|||1|5|| +---+---+---+---+---+---+
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |156|205| 34|576|236|454|
-+-----+-----+-----+-----+-----+-----+ +---+---+---+---+---+---+
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
-||2|0|||2|1|||2|2|||2|3|||2|4|||2|5||
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
-+-----+-----+-----+-----+-----+-----+
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
-||3|0|||3|1|||3|2|||3|3|||3|4|||3|5||
-|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
-+-----+-----+-----+-----+-----+-----+
-```
-
-The array on the right is a 4 by 6 table of numbers. It has 24 items
-arranged along two directions of length 4 and 6 respectively. The
-address of 496 is \[2,3\].
-
-The addresses of a `list` are integers: 0, 1, etc. For convenience, in
-situations where an address of a list is expected, a solitary integer is
-treated as an integer.
-
-The address of a `single` is the empty list `Null`.
-
-### argument
-
-  - Class:  
-    [concept](#concept)
-  - See Also:  
-    [operation](#operation)
-
-An **argument** is an array value supplied to an operation. All
-operations in Nial take a single array as the argument, but binary
-operations expect that argument to be a pair. When an operation is used
-in infix syntax, then the two array values on the left and right are
-combined into a pair to be supplied as the argument to the operation.
-
-The argument to an operation-form is treated specially. If the
-operation-form has only one formal parameter then the argument is
-assigned to the parameter. If it has two or more formal parameters, then
-the argument is checked to see if it has the same number of items as
-there are parameters. If so, the items are assigned to the parameters.
-If not, the result is the fault `?op_parameter`.
-
-### array
-
-  - Class:  
-    [concept](#concept)
-  - See Also:  
-    [item](#item), [address](#address), [dimensions](#dimensions)
-
-The data objects of Nial are nested rectangular arrays. Atomic data
-objects such as numbers and characters are included within this
-description by virtue of an atom being considered as a self-containing
-array object with no dimensions.
-
-**Atomic Arrays**
-
-There are six types of atoms in Nial. They are `boolean`, integer, real,
-character, phrase and `fault`. The first three are **numeric** types and
-are used for arithmetic operations. The last three are **literal** types
-and are used for text and symbol manipulation. All six types of atoms
-are used in comparisons.
-
-**Rectangularity Structure**
-
-An **array** is a collection of data objects having its **items** held
-at locations in a rectangular structure. The items are viewed as being
-at locations that are positioned relative to a set of directions at
-right angles to each other. The items may be arranged along zero, one,
-two or more directions. For example, the following array is a 4 by 6
-table of numbers. It has 24 items arranged along two directions of
-length 4 and 6 respectively.
-
-``` 
-                   +---+---+---+---+---+---+
-                   |499|434|122|770|733|890|
-                   +---+---+---+---+---+---+
-                   |660| 32|808| 24|  5|473|
-                   +---+---+---+---+---+---+
-                   |499|434|122|770|733|890|
-                   +---+---+---+---+---+---+
-                   |660| 32|808| 24|  5|473|
-                   +---+---+---+---+---+---+
-```
-
-The items of an array are themselves arrays. Thus, an array can have an
-arbitrarily deep nesting structure.
-
-
-
-
+ - [address](#address)
+ - [argument](#argument)
+ - [array](#array)
  - [by-variable](#by_variable)
  - [canonical](#canonical)
  - [clear workspace](#clear_workspace)
@@ -837,6 +727,52 @@ line. A remark cannot appear within a definition or expression-sequence.
 
 
 
+## address
+
+  - Class:  
+    [concept](#concept)
+  - See Also:  
+    [array](#array), [pick](#pick), [indexing](#indexing)
+
+An **address** is an integer or a list of integers describing the
+location of an item in an array. An address uses 0-origin counting, i.e.
+the first position in a list is at address 0. All the addresses of an
+array can be stored in an array of the same rectangular structure as the
+array itself. Such an array is called the **grid** of an array. Consider
+the following example:
+
+``` 
+             GRID OF THE ARRAY                 ARRAY
++-----+-----+-----+-----+-----+-----+ +---+---+---+---+---+---+
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |499|434|122|770|733|890|
+||0|0|||0|1|||0|2|||0|3|||0|4|||0|5|| +---+---+---+---+---+---+
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |660|160| 32|808|240|584|
++-----+-----+-----+-----+-----+-----+ +---+---+---+---+---+---+
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |473|235|164|496|808|966|
+||1|0|||1|1|||1|2|||1|3|||1|4|||1|5|| +---+---+---+---+---+---+
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+| |156|205| 34|576|236|454|
++-----+-----+-----+-----+-----+-----+ +---+---+---+---+---+---+
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
+||2|0|||2|1|||2|2|||2|3|||2|4|||2|5||
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
++-----+-----+-----+-----+-----+-----+
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
+||3|0|||3|1|||3|2|||3|3|||3|4|||3|5||
+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|+-+-+|
++-----+-----+-----+-----+-----+-----+
+```
+
+The array on the right is a 4 by 6 table of numbers. It has 24 items
+arranged along two directions of length 4 and 6 respectively. The
+address of 496 is \[2,3\].
+
+The addresses of a `list` are integers: 0, 1, etc. For convenience, in
+situations where an address of a list is expected, a solitary integer is
+treated as an integer.
+
+The address of a `single` is the empty list `Null`.
+
+
 
 ## allbools
 
@@ -1340,6 +1276,73 @@ produces the following results when applied to atoms of the six types:
 ```
 
 
+
+## argument
+
+  - Class:  
+    [concept](#concept)
+  - See Also:  
+    [operation](#operation)
+
+An **argument** is an array value supplied to an operation. All
+operations in Nial take a single array as the argument, but binary
+operations expect that argument to be a pair. When an operation is used
+in infix syntax, then the two array values on the left and right are
+combined into a pair to be supplied as the argument to the operation.
+
+The argument to an operation-form is treated specially. If the
+operation-form has only one formal parameter then the argument is
+assigned to the parameter. If it has two or more formal parameters, then
+the argument is checked to see if it has the same number of items as
+there are parameters. If so, the items are assigned to the parameters.
+If not, the result is the fault `?op_parameter`.
+
+
+
+## array
+
+  - Class:  
+    [concept](#concept)
+  - See Also:  
+    [item](#item), [address](#address), [dimensions](#dimensions)
+
+The data objects of Nial are nested rectangular arrays. Atomic data
+objects such as numbers and characters are included within this
+description by virtue of an atom being considered as a self-containing
+array object with no dimensions.
+
+**Atomic Arrays**
+
+There are six types of atoms in Nial. They are `boolean`, integer, real,
+character, phrase and `fault`. The first three are **numeric** types and
+are used for arithmetic operations. The last three are **literal** types
+and are used for text and symbol manipulation. All six types of atoms
+are used in comparisons.
+
+**Rectangularity Structure**
+
+An **array** is a collection of data objects having its **items** held
+at locations in a rectangular structure. The items are viewed as being
+at locations that are positioned relative to a set of directions at
+right angles to each other. The items may be arranged along zero, one,
+two or more directions. For example, the following array is a 4 by 6
+table of numbers. It has 24 items arranged along two directions of
+length 4 and 6 respectively.
+
+``` 
+                   +---+---+---+---+---+---+
+                   |499|434|122|770|733|890|
+                   +---+---+---+---+---+---+
+                   |660| 32|808| 24|  5|473|
+                   +---+---+---+---+---+---+
+                   |499|434|122|770|733|890|
+                   +---+---+---+---+---+---+
+                   |660| 32|808| 24|  5|473|
+                   +---+---+---+---+---+---+
+```
+
+The items of an array are themselves arrays. Thus, an array can have an
+arbitrarily deep nesting structure.
 
 
 
