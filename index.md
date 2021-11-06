@@ -3,6 +3,11 @@ layout: home
 header:
   overlay_image: /assets/images/Nial2.png
   overlay_filter: 0.5
+sidebar:
+  - title: Current Version
+    text: >
+      The current version of Nial is [Q'Nial7](https://github.com/danlm/QNial7). This
+      can also be found at [Nial_Development](https://github.com/gibbonsja/Nial_Development).
 ---
 
 Welcome to the Nial language website.
