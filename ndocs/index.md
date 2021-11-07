@@ -13,8 +13,10 @@ The following items provide a complete description of the Nial language and its 
 
 ## Reference Documentation
 
-- [Nial Dictionary](NialDict.md) is an indexed collection of operations, transformers, concepts etc for Nial. This is also
+- [Nial Dictionary](NialDict2.md) is an indexed collection of operations, transformers, concepts etc for Nial. This is also
    available as a [Standalone Web Page](NialDictionary.html)
+- [NialDict3](NialDict3.md)
+
 
 ## Language Extensions
 
