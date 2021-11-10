@@ -8,7 +8,7 @@ sidebar:
       - [address](#address)
       - [argument](#argument)
       - [array](#array)
-      - [by-variable](#by_variable)
+      - [by-variable](#by-variable)
       - [canonical](#canonical)
       - [clear workspace](#clear-workspace)
       - [conform](#conform)
@@ -20,56 +20,56 @@ sidebar:
       - [expression](#expression)
       - [extent](#extent)
       - [fault triggering](#fault-triggering)
-      - [fault values](#fault_values)
+      - [fault values](#fault-values)
       - [functions in nial](#functions-in-nial)
       - [global environment](#global-environment)
       - [indexing](#indexing)
       - [interrupt](#interrupt)
-      - [invocation of QNial](#invocation-of-QNial)
+      - [invocation of QNial](#invocation-of-qnial)
       - [item](#item)
       - [level](#level)
       - [local environment](#local-environment)
-      - [nested definition](#nested_definition)
+      - [nested definition](#nested-definition)
       - [numeric type hierarchy](#numeric-type-hierarchy)
       - [operation](#operation)
-      - [operation composition](#operation_composition)
+      - [operation composition](#operation-composition)
       - [overflow](#overflow)
       - [pervasive](#pervasive)
-      - [prelattice of atoms](#prelattice_of_atoms)
+      - [prelattice of atoms](#prelattice-of-atoms)
       - [profiling](#profiling)
-      - [program fragment](#program_fragment)
+      - [program fragment](#program-fragment)
       - [role](#role)
-      - [scope of a variable](#scope_of_a_variable)
-      - [standard definitions](#standard_definitions)
-      - [top level loop](#top_level_loop)
+      - [scope of a variable](#scope-of-a-variable)
+      - [standard definitions](#standard-definitions)
+      - [top level loop](#top-level-loop)
       - [transformer](#transformer)
   - title: Syntax
     text: |
       - [action](#action)
-      - [assign expression](#assign_expression)
+      - [assign expression](#assign-expression)
       - [atlas](#atlas)
       - [block](#block)
-      - [bracket-comma notation](#bracket_comma_notation)
+      - [bracket-comma notation](#bracket-comma-notation)
       - [cast](#cast)
       - [comment](#comment)
-      - [expression sequence](#expression_sequence)
-      - [external declaration](#external_declaration)
-      - [infix notation](#infix_notation)
+      - [expression sequence](#expression-sequence)
+      - [external declaration](#external-declaration)
+      - [infix notation](#infix-notation)
       - [juxtaposition](#juxtaposition)
-      - [operation form](#operation_form)
-      - [prefix notation](#prefix_notation)
-      - [reserved words](#reserved_words)
-      - [strand notation](#strand_notation)
+      - [operation form](#operation-form)
+      - [prefix notation](#prefix-notation)
+      - [reserved words](#reserved-words)
+      - [strand notation](#strand-notation)
       - [synonym](#synonym)
-      - [transformer form](#transformer_form)
+      - [transformer form](#transformer-form)
       - [variable](#variable)
   - title: Control Structures
     text: |
-      - [case-expr](#case_expr)
+      - [case-expr](#case-expr)
       - [for-loop](#for-loop)
-      - [if-expr](#if_expr)
-      - [repeat\-loop](#repeat_loop)
-      - [while\-loop](#while_loop)
+      - [if-expr](#if-expr)
+      - [repeat\-loop](#repeat-loop)
+      - [while\-loop](#while-loop)
   - title: Operation Properties
     text: |
       - [binary](#binary)
@@ -167,7 +167,7 @@ sidebar:
       - [fromraw](#fromraw)
       - [gage](#gage)
       - [phrase](#phrase)
-      - [quiet\_fault](#quiet_fault)
+      - [quiet fault](#quiet-fault)
       - [string](#string)
       - [tolower](#tolower)
       - [tonumber](#tonumber)
@@ -357,7 +357,7 @@ sidebar:
       - [library](#library)
       - [load](#load)
       - [loaddefs](#loaddefs)
-      - [no\_op](#no_op)
+      - [no\_op](#no-op)
       - [save](#save)
       - [see](#see)
       - [seeprimcalls](#seeprimcalls)
@@ -426,13 +426,13 @@ sidebar:
       - [sort](#sort)
   - title: System transformer
     text: |
-      - [no\_tr](#no_tr)
+      - [no\_tr](#no-tr)
   - title: System variables
     text: |
       - [libpath](#libpath)
   - title: System constants
     text: |
-      - [no\_value](#no_value)
+      - [no\_value](#no-value)
   - title: Debugging commands
     text: |
       - [next](#next)
@@ -10564,7 +10564,7 @@ men','to come to the aid']
 
 
 
-## quiet\_fault
+## quiet_fault
 
   - Class:  
     [conversion operation](#conversion_operation)
