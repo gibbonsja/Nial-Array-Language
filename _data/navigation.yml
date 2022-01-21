@@ -2,6 +2,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Download"
+    url: /download/
   - title: "Documentation"
     url: /ndocs/
   # - title: "About"
